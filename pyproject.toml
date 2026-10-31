@@ -1,0 +1,24 @@
+[project]
+name = "depi-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amr Etman", email = "amretman1213@gmail.com" }
+]
+
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "seaborn",
+]
+
+[project.scripts]
+depi-project = "depi_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
