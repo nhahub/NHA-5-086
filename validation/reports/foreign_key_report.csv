@@ -1,0 +1,10 @@
+relationship,orphan_count,fk_valid
+orders.user_id -> users.id,0,True
+order_items.order_id -> orders.order_id,0,True
+order_items.user_id -> users.id,0,True
+order_items.product_id -> products.id,0,True
+order_items.inventory_item_id -> inventory_items.id,0,True
+inventory_items.product_id -> products.id,0,True
+products.distribution_center_id -> distribution_centers.id,0,True
+inventory_items.product_distribution_center_id -> distribution_centers.id,0,True
+events.user_id -> users.id,0,True

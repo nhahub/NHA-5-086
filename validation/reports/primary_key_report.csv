@@ -1,0 +1,8 @@
+table,primary_key,null_count,duplicate_count,pk_valid
+distribution_centers,id,0,0,True
+products,id,0,26,False
+inventory_items,id,0,0,True
+users,id,0,0,True
+orders,order_id,0,0,True
+order_items,id,0,0,True
+events,id,0,0,True
